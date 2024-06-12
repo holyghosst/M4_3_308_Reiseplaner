@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Bear Grylls",
+        "username": "@the_revenant"
+    },
+    {
+        "id": 2,
+        "name": "Taylor Swift",
+        "username": "@torturedPoet_1989"
+    },
+    {
+        "id": 3,
+        "name": "Marshall Mathers",
+        "username": "@slimShaady"
+    },
+    {
+        "id": 4,
+        "name": "Linus Torwalds",
+        "username": "@i_hate_windows"
+    }
+]

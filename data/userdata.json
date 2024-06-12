@@ -1,0 +1,11 @@
+{
+  "Username": "majestic_jane",
+  "Firstname": "Jane",
+  "Lastname": "Musterfrau",
+  "EMail": "testuser@localhost.at",
+  "Password": "testuser",
+  "Preferences" : 
+  {"Activities" : [["utensils","Food"], ["person-swimming","Swimming"], ["campground","Camping"]],
+   "Destinations": [["city","City Trip"], ["leaf","Nature"]],
+    "Other": [["accessible-icon","Barrier-Free"]]}
+}

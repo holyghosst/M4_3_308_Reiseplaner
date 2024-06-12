@@ -1,0 +1,467 @@
+[
+  {
+    "title": "Napoli",
+    "price": "1298 € p.P.",
+    "image": "napoli",
+    "duration": "5 days",
+    "isAccessible": false,
+    "arrivalDate": "2025-08-01",
+    "departureDate": "2025-08-05",
+    "associatedPreferences": {
+      "Transportation": [
+        {
+          "name": "train",
+          "FontAwesome6Icon": "train"
+        },
+        {
+          "name": "plane",
+          "FontAwesome6Icon": "plane"
+        },
+        {
+          "name": "bus",
+          "FontAwesome6Icon": "bus"
+        }
+      ],
+      "Destinations": [
+        {
+          "name": "city",
+          "FontAwesome6Icon": "city"
+        }
+      ],
+      "Activities": [
+        {
+          "name": "food",
+          "FontAwesome6Icon": "utensils"
+        },
+        {
+          "name": "sightseeing",
+          "FontAwesome6Icon": "camera"
+        }
+      ]
+    },
+    "arrival": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "10:45",
+          "endTime": "11:30",
+          "startStation": "Wien-Gersthof",
+          "endStation": "Vienna International Airport"
+        },
+        {
+          "meansOfTransport": "plane",
+          "startTime": "13:30",
+          "endTime": "15:45",
+          "startStation": "Vienna International Airport",
+          "endStation": "Aeroporto Internazionale di Napoli"
+        },
+        {
+          "meansOfTransport": "bus",
+          "startTime": "16:30",
+          "endTime": "17:00",
+          "startStation": "Aeroporto Internazionale di Napoli",
+          "endStation": "Napoli City Centre"
+        }
+      ]
+    },
+    "departure": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "bus",
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "startStation": "Napoli City Centre",
+          "endStation": "Aeroporto Internazionale di Napoli"
+        },
+        {
+          "meansOfTransport": "plane",
+          "startTime": "12:30",
+          "endTime": "15:00",
+          "startStation": "Aeroporto Internazionale di Napoli",
+          "endStation": "Vienna International Airport"
+        },
+        {
+          "meansOfTransport": "train",
+          "startTime": "16:15",
+          "endTime": "17:00",
+          "startStation": "Vienna International Airport",
+          "endStation": "Wien-Gersthof"
+        }
+      ]
+    },
+    "suggestedHotel": {
+      "name": "Capodichino International Hotel",
+      "homepage": "https://capodichinointernationalhotelnapoli.com-hotel.com"
+    },
+    "suggestedActivities": [
+      {
+        "name": "Napoli Sotterranea",
+        "homepage": "https://www.napolisotterranea.org/en/"
+      },
+      {
+        "name": "Cappella Sansevero",
+        "homepage": "NA"
+      }
+    ],
+    "suggestedRestaurants": [
+      {
+        "name": "Trattoria Don Alfonso",
+        "mapsLink": "https://maps.app.goo.gl/Pcc1dBL3EMKGsDeU6"
+      },
+      {
+        "name": "Re Lazzarone",
+        "mapsLink": "https://maps.app.goo.gl/HT6j8Y8uGbBUyqbC8"
+      }
+    ]
+  },
+  {
+    "title": "Salzburg",
+    "price": "899 € p.P.",
+    "image": "salzburg",
+    "duration": "3 days",
+    "isAccessible": true,
+    "arrivalDate": "2025-08-10",
+    "departureDate": "2025-08-13",
+    "associatedPreferences": {
+      "Transportation": [
+        {
+          "name": "train",
+          "FontAwesome6Icon": "train"
+        },
+        {
+          "name": "bus",
+          "FontAwesome6Icon": "bus"
+        }
+      ],
+      "Destinations": [
+        {
+          "name": "city",
+          "FontAwesome6Icon": "city"
+        }
+      ],
+      "Activities": [
+        {
+          "name": "sightseeing",
+          "FontAwesome6Icon": "camera"
+        },
+        {
+          "name": "nature",
+          "FontAwesome6Icon": "leaf"
+        }
+      ]
+    },
+    "arrival": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "10:45",
+          "endTime": "15:30",
+          "startStation": "Vienna Central Station",
+          "endStation": "Salzburg Central Station"
+        }
+      ]
+    },
+    "departure": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "bus",
+          "startTime": "10:00",
+          "endTime": "14:30",
+          "startStation": "Salzburg Central Station",
+          "endStation": "Vienna Bus-Terminal Erdberg"
+        }
+      ]
+    },
+    "suggestedHotel": {
+      "name": "Salzburg Hotel",
+      "homepage": "https://salzburghotel.com/"
+    },
+    "suggestedActivities": [
+      {
+        "name": "Salzburg Castle",
+        "homepage": "https://www.salzburgcastle.com/"
+      },
+      {
+        "name": "Salzburg Nature Park",
+        "homepage": "https://www.salzburgnaturepark.com/"
+      }
+    ],
+    "suggestedRestaurants": [
+      {
+        "name": "Salzburg Restaurant",
+        "mapsLink": "https://maps.app.goo.gl/SalzburgRestaurant"
+      },
+      {
+        "name": "Salzburg Cafe",
+        "mapsLink": "https://maps.app.goo.gl/SalzburgCafe"
+      }
+    ]
+  },
+  {
+    "title": "Prague",
+    "price": "699 € p.P.",
+    "image": "prague",
+    "duration": "4 days",
+    "isAccessible": true,
+    "arrivalDate": "2025-08-15",
+    "departureDate": "2025-08-19",
+    "associatedPreferences": {
+      "Transportation": [
+        {
+          "name": "train",
+          "FontAwesome6Icon": "train"
+        },
+        {
+          "name": "bus",
+          "FontAwesome6Icon": "bus"
+        }
+      ],
+      "Destinations": [
+        {
+          "name": "city",
+          "FontAwesome6Icon": "city"
+        }
+      ],
+      "Activities": [
+        {
+          "name": "sightseeing",
+          "FontAwesome6Icon": "camera"
+        },
+        {
+          "name": "nature",
+          "FontAwesome6Icon": "leaf"
+        }
+      ]
+    },
+    "arrival": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "10:45",
+          "endTime": "15:30",
+          "startStation": "Vienna Central Station",
+          "endStation": "Prague Central Station"
+        }
+      ]
+    },
+    "departure": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "bus",
+          "startTime": "10:00",
+          "endTime": "14:30",
+          "startStation": "Prague Central Station",
+          "endStation": "Vienna Bus-Terminal Erdberg"
+        }
+      ]
+    },
+    "suggestedHotel": {
+      "name": "Prague Hotel",
+      "homepage": "https://praguehotel.com/"
+    },
+    "suggestedActivities": [
+      {
+        "name": "Prague Castle",
+        "homepage": "https://www.praguecastle.com/"
+      },
+      {
+        "name": "Prague Old Town",
+        "homepage": "https://www.pragueoldtown.com/"
+      }
+    ],
+    "suggestedRestaurants": [
+      {
+        "name": "Prague Restaurant",
+        "mapsLink": "https://maps.app.goo.gl/PragueRestaurant"
+      },
+      {
+        "name": "Prague Cafe",
+        "mapsLink": "https://maps.app.goo.gl/PragueCafe"
+      }
+    ]
+  },
+  {
+    "title": "Lindau",
+    "price": "1499 € p.P.",
+    "image": "bodensee",
+    "duration": "9 days",
+    "isAccessible": true,
+    "arrivalDate": "2025-05-12",
+    "departureDate": "2025-05-21",
+    "associatedPreferences": {
+      "Transportation": [
+        {
+          "name": "train",
+          "FontAwesome6Icon": "train"
+        }
+      ],
+      "Destinations": [
+        {
+          "name": "beach",
+          "FontAwesome6Icon": "umbrella-beach"
+        }
+      ],
+      "Activities": [
+        {
+          "name": "sightseeing",
+          "FontAwesome6Icon": "camera"
+        },
+        {
+          "name": "nature",
+          "FontAwesome6Icon": "leaf"
+        }
+      ]
+    },
+    "arrival": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "23:35",
+          "endTime": "06:20",
+          "startStation": "Vienna Meidling",
+          "endStation": "Bludenz"
+        },
+        {
+          "meansOfTransport": "train",
+          "startTime": "06:30",
+          "endTime": "07:30",
+          "startStation": "Bludenz",
+          "endStation": "Lindau-Eiland"
+        }
+      ]
+    },
+    "departure": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "23:35",
+          "endTime": "06:20",
+          "startStation": "Bludenz",
+          "endStation": "Vienna Meidling"
+        },
+        {
+          "meansOfTransport": "train",
+          "startTime": "22:15",
+          "endTime": "23:20",
+          "startStation": "Lindau-Eiland",
+          "endStation": "Bludenz"
+        }
+      ]
+    },
+    "suggestedHotel": {
+      "name": "Lindau Hotel",
+      "homepage": "https://lindauhotel.com/"
+    },
+    "suggestedActivities": [
+      {
+        "name": "Lindau Beach",
+        "homepage": "https://www.LindaiBeach.com/"
+      }
+    ],
+    "suggestedRestaurants": [
+      {
+        "name": "Lindau Restaurant",
+        "mapsLink": "https://maps.app.goo.gl/LindauRestaurant"
+      },
+      {
+        "name": "Lindau Cafe",
+        "mapsLink": "https://maps.app.goo.gl/LindauCafe"
+      }
+    ]
+  },
+  {
+    "title": "Hamburg",
+    "price": "499 € p.P.",
+    "image": "hamburg",
+    "duration": "3 days",
+    "isAccessible": false,
+    "arrivalDate": "2025-07-09",
+    "departureDate": "2025-07-12",
+    "associatedPreferences": {
+      "Transportation": [
+        {
+          "name": "train",
+          "FontAwesome6Icon": "train"
+        }
+      ],
+      "Destinations": [
+        {
+          "name": "city",
+          "FontAwesome6Icon": "city"
+        }
+      ],
+      "Activities": [
+        {
+          "name": "sightseeing",
+          "FontAwesome6Icon": "camera"
+        }
+      ]
+    },
+    "arrival": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "10:45",
+          "endTime": "18:30",
+          "startStation": "Vienna Central Station",
+          "endStation": "Hamburg Central Station"
+        }
+      ]
+    },
+    "departure": {
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "details": [
+        {
+          "meansOfTransport": "train",
+          "startTime": "10:00",
+          "endTime": "18:30",
+          "startStation": "Hamburg Central Station",
+          "endStation": "Vienna Central Station"
+        }
+      ]
+    },
+    "suggestedHotel": {
+      "name": "Hamburg Hotel",
+      "homepage": "https://hamburghotel.com/"
+    },
+    "suggestedActivities": [
+      {
+        "name": "Miniaturwunderland",
+        "homepage": "https://www.miniaturwunderland.com/"
+      },
+      {
+        "name": "Hamburger Alster",
+        "homepage": "https://www.alster.com/"
+      }
+    ],
+    "suggestedRestaurants": [
+      {
+        "name": "Hamburg Restaurant",
+        "mapsLink": "https://maps.app.goo.gl/HamburgRestaurant"
+      },
+      {
+        "name": "Hamburg Cafe",
+        "mapsLink": "https://maps.app.goo.gl/HamburgCafe"
+      }
+    ]
+  }
+]
