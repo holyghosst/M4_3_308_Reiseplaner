@@ -2,6 +2,7 @@
   "default": {
     "textPrimary": " text-black ",
     "textSecondary": " text-green-500 ",
+    "textError" : "text-red-500",
     "bgPrimary": " bg-white ",
     "bgSecondary": " bg-green-200 ",
     "tabPrimary": "#37c86a",
@@ -10,7 +11,8 @@
   },
   "dichromacy": {
     "textPrimary": " text-black ",
-    "textSecondary": " text-purple-500 ",
+    "textSecondary": "text-purple-500 ",
+    "textError": "text-blue-500",
     "bgPrimary": " bg-white ",
     "bgSecondary": " bg-purple-200 ",
     "tabPrimary": "#9f49c2",
@@ -20,6 +22,7 @@
   "tritanomaly": {
     "textPrimary": " text-black ",
     "textSecondary": " text-red-500 ",
+    "textError": "text-pink-500",
     "bgPrimary": " bg-white ",
     "bgSecondary": " bg-red-200 ",
     "tabPrimary": "#da6b6b",
@@ -29,6 +32,7 @@
   "highContrast": {
     "textPrimary": " text-black ",
     "textSecondary": " text-black ",
+    "textError": "text-gray-900",
     "bgPrimary": " bg-white ",
     "bgSecondary": " bg-white ",
     "tabPrimary": "black",

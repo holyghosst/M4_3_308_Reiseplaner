@@ -45,7 +45,7 @@ const TabNavigator = ({route}) => {
     return (
         <Tab.Navigator screenOptions={{headerShown: false, tabBarShowLabel: false}}>
             <Tab.Screen
-                name="Home1"
+                name="Home"
                 component={HomeScreen}
                 initialParams={{colorScheme: colorScheme}}
                 options={{
