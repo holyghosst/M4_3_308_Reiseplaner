@@ -109,7 +109,7 @@ const entryModal = () => {
             LayoutAnimation.spring();
             setModalVisible(false);
         } else {
-            setErrorMessage('Wrong Password or Email');
+            setErrorMessage('Wrong password or email');
         }
     }
 
@@ -240,14 +240,14 @@ const entryModal = () => {
                         onChangeText={setEmail}
                     />
                     <TextInput
-                        className={(colorScheme === 'highContrast' ? 'bg-white border-2 border-black' : 'bg-gray-200') + ' py-2 px-4 rounded-full p-2 mt-5 w-2/3'}
+                        className={(colorScheme === 'highContrast' ? 'bg-white border-2 border-black' : 'bg-gray-200') + ' py-2 px-4 rounded-full p-2 mt-5 mb-4 w-2/3'}
                         placeholder="Password"
                         secureTextEntry
                         value={password}
                         onChangeText={setPassword}
                     />
                     {errorMessage ? (
-                        <Text style={{ color: 'red', marginTop: 10 }}>
+                        <Text className={Themes[colorScheme].textError}>
                             {errorMessage}
                         </Text>
                     ) : null}
