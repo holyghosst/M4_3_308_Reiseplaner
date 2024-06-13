@@ -28,7 +28,8 @@ Link zur Expo-App:
 
 
 ### Dauer der Entwicklung:
-28 Stunden
+Meilenstein 3: 28 Stunden
+Meilenstein 4: 4.5 Stunden
 
 ## Weitere Anmerkungen:
 
