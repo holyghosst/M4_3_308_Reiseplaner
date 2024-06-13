@@ -16,8 +16,6 @@ Gerät(e), auf dem(denen) getestet wurde:
 * Google Pixel 3a VM, API 34
 * Google Pixel 6 VM, API 30
 
-Link zur Expo-App:
-
 ### Externe Libraries und Frameworks:
 * [React-Navigation](https://reactnavigation.org/),
 * [NativeWind](https://www.nativewind.dev/)
