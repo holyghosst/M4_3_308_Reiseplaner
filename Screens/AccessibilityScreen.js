@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, Switch } from 'react-native';
+import { View, Text, Switch, Pressable} from 'react-native';
 import Themes from "../data/colorTheme.json";
 import { ThemeContext } from "../context.js";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -12,7 +12,7 @@ export default function AccessibilityScreen({ navigation, route }) {
 
     useEffect(() => {
         const loadSettings = async () => {
-            try { 
+            try {
                 const savedDichromasie = await AsyncStorage.getItem('dichromasie');
                 const savedTritanomalien = await AsyncStorage.getItem('tritanomalien');
                 const savedHighcontrast = await AsyncStorage.getItem('highcontrast');
@@ -117,6 +117,14 @@ export default function AccessibilityScreen({ navigation, route }) {
             <Text className={'text-base' + Themes[colorScheme].textPrimary}>
                 High Contrast mode increases the contrast between text and background, making content more readable for users with visual impairments.
             </Text>
+
+            <Pressable
+                className={'mt-10 px-5 py-2 rounded-full items-center justify-center' + Themes[colorScheme].bgSecondary}
+                onPress={() => navigation.navigate('Home')}
+                accessibilityLabel="Return to Homescreen"
+            >
+                <Text className={"text-lg font-bold" + Themes[colorScheme].textPrimary}>Return to Home</Text>
+            </Pressable>
         </View>
     );
 };
